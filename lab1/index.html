@@ -1,20 +1,52 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hello world</h1>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <header class="site-header">
+      <div class="header-row">
+        <div class="brand">
+          <span class="brand-mark">WEB LAB</span>
+          <h1>Interactive Demo</h1>
+        </div>
+
+        <button
+          id="themeToggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch to dark theme"
+          aria-live="polite"
+        >
+          Dark mode
+        </button>
+      </div>
+    </header>
+
+    <main class="demo-wrapper">
+      <div class="demo-card" id="demoCard" data-state="idle">
+        <div class="demo-top">
+          <span class="status-badge" id="statusBadge">Ready</span>
+          <span class="click-indicator">
+            Clicks:
+            <strong id="clickCounter">0</strong>
+          </span>
+        </div>
+
+        <h2 id="cardMessage">Press the button</h2>
+        <p class="card-subtitle" id="cardSubtitle">Tap to start the cycle.</p>
+
+        <button id="actionButton" class="action-button" type="button">Tap me</button>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Frontend Lab</p>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
