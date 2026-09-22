@@ -6,6 +6,7 @@ description: Review a small frontend change for correctness, accessibility, resp
 # Frontend Review
 
 ## Checklist
+
 1. Inspect only the files relevant to the task.
 2. Check HTML semantics and obvious accessibility issues.
 3. Check CSS responsiveness and class naming consistency.

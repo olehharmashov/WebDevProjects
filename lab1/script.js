@@ -45,9 +45,9 @@ const states = [
     badge: 'Epic',
     message: 'Maximum energy!',
     subtitle: 'This is the final mode.',
-    state: 'legend',
-    bg: 'var(--legend-soft)',
-    text: '#34d399',
+    state: 'Epic',
+    bg: 'var(--epic-soft)',
+    text: '#ae34d3',
   },
   {
     badge: 'Reset',

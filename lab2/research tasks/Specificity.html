@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      div {
+        color: gray;
+      }
+
+      /* Селектор класу: (0, 1, 0) */
+      .highlight {
+        color: blue;
+      }
+
+      /* Ланцюжок із багатьох класів: (0, 5, 0) */
+      .c1.c2.c3.c4.c5 {
+        color: orange;
+      }
+
+      /* Селектор ID: (1, 0, 0) */
+      #target-element {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="target-element" class="highlight c1 c2 c3 c4 c5">
+      Текст для перевірки специфічності
+    </div>
+  </body>
+</html>

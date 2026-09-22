@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      :root {
+        --card-bg: #f8fafc;
+        --card-text: #0f172a;
+        --card-border: #cbd5e1;
+        --card-radius: 12px;
+      }
+
+      .card {
+        background-color: var(--card-bg);
+        color: var(--card-text);
+        border: 1px solid var(--card-border);
+        border-radius: var(--card-radius);
+        padding: 20px;
+        margin-bottom: 16px;
+        max-width: 320px;
+        font-family: sans-serif;
+      }
+
+      .dark-card {
+        --card-bg: #1e293b;
+        --card-text: #f1f5f9;
+        --card-border: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h3>Світла картка</h3>
+      <p>Використовує глобальні змінні з псевдокласу :root.</p>
+    </div>
+
+    <div class="card dark-card">
+      <h3>Темна картка</h3>
+      <p>
+        Використовує ті самі правила стилів, але змінні перевизначені локально.
+      </p>
+    </div>
+  </body>
+</html>
