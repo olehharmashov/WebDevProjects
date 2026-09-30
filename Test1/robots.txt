@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://olehharmashov.github.io/WebDevProjects/sitemap.xml
+Sitemap: https://test1-inky-eight.vercel.app/sitemap.xml
