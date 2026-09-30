@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://olehharmashov.github.io/WebDevProjects/sitemap.xml
